@@ -1,0 +1,115 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    text-align: center;
+    height : 1115px;
+    width: 720px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    width: 100px;
+}
+
+.div-1{
+    height: 343px;
+    background-image: url("images/torshov.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    width: 201px;
+    height: 34px;
+    color: white;
+    background: #1D3557;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-size: 32px;
+}
+
+h2{
+    color:#ffffff;
+    background: #457B9D;
+    width: 412px;
+    border-radius: 10px;
+    padding: 5px 20px;
+    font-size: 19px;
+
+}
+
+.div-2{
+    height: 343px;
+    background: #F1FAEE;
+    margin-top: 0;
+    padding: 25px;
+    color: #1D3557;
+}
+
+.div-2 h3{
+    width: 432px;
+    height: 20px;
+    margin: 0 auto;
+    padding: 10px 0 35px 0;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.activities{
+    display: flex;
+}
+
+.todo{
+    margin-left: 20px;
+}
+.activity-img{
+    border-radius: 50px;
+}
+.todo p{
+    width: 198px;
+    font-size: 16px;
+}
+.todo h4{
+    width: 183px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.div-3{
+    padding: 45px 180px;
+    color: #1D3557
+}
+
+.card-div{
+    width: 350px;
+    height: 294px;
+    margin: 0 auto;
+    display: flex;
+    background: #A8DADC;
+    padding: 5px 30px;
+    border-bottom: 5px solid #1D3557;
+    border-radius: 10px;
+}
+
+.card-div img{
+    width: 180px;
+    height: 248px;
+
+}
+
+.img-div{
+    padding: 20px 0;
+    margin-right: 10px;
+}
